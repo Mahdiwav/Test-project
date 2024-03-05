@@ -2,10 +2,10 @@
 
 Hello, this project is an exercise project in which it is connected to its Postgres database in Docker using the Python code in the folder and creates three tables with the following specifications.
 
-> The first table named "user" whose fields are "username", "first-name", "last-name", "password", "email"
-> The second table with the name of the "product", which has the "name","price", and "color" fields
-> The third table is named "Organizations" and has "username","password" and "email" fields
-> There is a primary key field in all fields
+- The first table named "user" whose fields are "username", "first-name", "last-name", "password", "email"
+- The second table with the name of the "product", which has the "name","price", and "color" fields
+- The third table is named "Organizations" and has "username","password" and "email" fields
+- There is a primary key field in all fields
 
 After creating the tables in the database, it values them randomly using the [Faker](https://faker.readthedocs.io/en/master/) library
 
@@ -49,4 +49,3 @@ If you are done and want to delete the containers, execute the following command
 ```sh
 docker-compose down
 ```
-
